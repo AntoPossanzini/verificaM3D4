@@ -1,0 +1,63 @@
+:root {
+    --home-bg-color: #000;
+    --account-bg-color: #f3f3f3;
+    --text-color: #fff;
+    --primary-color: #e40a13;
+    --secondary-color: #929292;
+
+}
+
+body {
+    background: var(--home-bg-color);
+}
+
+.btn {
+    border-radius: 0;
+}
+
+
+
+#logo {
+    height: 48px;
+}
+
+#avatar {
+    height: 30px;
+}
+
+
+
+.icon {
+    margin: 20px;
+}
+
+
+.movie-row {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.movie-cover {
+    width: 99%;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.movie-cover:hover {
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+img.movie-cover {
+    height: 120px;
+}
+
+.carousel-control-next {
+    margin-right: -5%;
+}
+
+.carousel-control-prev {
+    margin-left: -5%;
+}
